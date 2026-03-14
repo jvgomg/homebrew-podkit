@@ -1,5 +1,5 @@
 class Podkit < Formula
-  desc "Sync music collections to iPod devices"
+  desc "Modern sync for classic iPods"
   homepage "https://github.com/jvgomg/podkit"
   version "0.2.0" # Updated automatically by CI
   license "MIT"
