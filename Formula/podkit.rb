@@ -1,7 +1,7 @@
 class Podkit < Formula
   desc "Modern sync for classic iPods"
   homepage "https://github.com/jvgomg/podkit"
-  version "0.5.1" # Updated automatically by CI
+  version "0.6.0" # Updated automatically by CI
   license "MIT"
 
   depends_on "ffmpeg"
@@ -9,22 +9,22 @@ class Podkit < Formula
   on_macos do
     on_arm do
       url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-darwin-arm64.tar.gz"
-      sha256 "64695dc0ecafc73e89753d459826dabf82bcc33314debd77a4d233392eb20da9"
+      sha256 "e2c463baae9cc768a6b9aba308ab725c028e1fe811302dd2244784897f978299"
     end
     on_intel do
       url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-darwin-x64.tar.gz"
-      sha256 "a434215b7ebc966bd24b57d1ae3e01b455382c72868a38e2740b988253ca7eaf"
+      sha256 "4239a00ae59ec7fd9cd04ebae0bfc306bca6bf9168db27f1c87e4b1e7bc7c512"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-linux-arm64.tar.gz"
-      sha256 "217558cb3a0f921bb2cc33fd237c27de285b186ec165510ac71361324608ae76"
+      sha256 "f5fc404dece451c76b81d2582452f39371ed36e0462066329bf6ab06c93c7e1e"
     end
     on_intel do
       url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-linux-x64.tar.gz"
-      sha256 "f60b11d48fee874830c4170d0d1de4cfb804912e9b1db4d347c6f72f1e443111"
+      sha256 "b9424e8943df1e7aba08bf76b0bfcbcb9a3791be71963d082a5eb55f14d752ea"
     end
   end
 
