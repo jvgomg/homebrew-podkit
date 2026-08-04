@@ -19,11 +19,11 @@ class Podkit < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-linux-arm64.tar.gz"
+      url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-linux-arm64-gnu.tar.gz"
       sha256 "f5fc404dece451c76b81d2582452f39371ed36e0462066329bf6ab06c93c7e1e"
     end
     on_intel do
-      url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-linux-x64.tar.gz"
+      url "https://github.com/jvgomg/podkit/releases/download/podkit@#{version}/podkit-linux-x64-gnu.tar.gz"
       sha256 "b9424e8943df1e7aba08bf76b0bfcbcb9a3791be71963d082a5eb55f14d752ea"
     end
   end
